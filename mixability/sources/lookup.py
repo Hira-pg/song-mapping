@@ -138,7 +138,8 @@ def analyse_preview(url: str) -> Optional[dict]:
         with urllib.request.urlopen(req, timeout=30) as r, open(path, "wb") as f:
             f.write(r.read())
         return analyse_audio(path)
-    except Exception:
+    except Exception as e:  # report, but keep going with the other tracks
+        print(f"    preview analysis failed: {type(e).__name__}: {e}", file=sys.stderr)
         return None
     finally:
         os.remove(path)
