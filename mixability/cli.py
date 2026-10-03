@@ -61,7 +61,7 @@ def cmd_playlist(lib: Library, a) -> None:
 
 def cmd_lookup(lib: Library, a) -> None:
     from .sources.lookup import fill_missing
-    n = fill_missing(lib)
+    n = fill_missing(lib, previews=not a.no_previews)
     lib.save()
     still = [t for t in lib if not t.is_scorable]
     print(f"filled data for {n} tracks; {len(still)} still missing BPM or key")
@@ -158,7 +158,8 @@ def main(argv=None) -> None:
     s.add_argument("--no-browser", action="store_true", help="print the sign-in URL instead of opening it")
     s.set_defaults(fn=lambda lib, a: __import__("mixability.sources.tidal", fromlist=["login"]).login(not a.no_browser))
 
-    s = sub.add_parser("lookup", help="fill missing BPM/key/energy from Deezer and GetSongBPM")
+    s = sub.add_parser("lookup", help="fill BPM/key/energy from Deezer previews and GetSongBPM")
+    s.add_argument("--no-previews", action="store_true", help="skip downloading Deezer 30s previews")
     s.set_defaults(fn=cmd_lookup)
 
     s = sub.add_parser("list", help="list library tracks")

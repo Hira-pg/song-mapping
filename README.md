@@ -66,19 +66,23 @@ with the BPM to set the incoming deck to.
 
 ## Filling BPM / key / energy for streaming tracks
 
-TIDAL's public API does not return BPM or key (checked on a real 64-track
-playlist), so after a `tidal` import run:
+TIDAL's public API does not return BPM or key, so after a `tidal` import run:
 
 ```bash
 python3 -m mixability lookup
 ```
 
-It looks each track up on Deezer by ISRC (BPM, loudness; no key needed) and on
-GetSongBPM by artist and title (BPM, key, danceability; free API key in
-`GETSONGBPM_API_KEY`, and their terms ask for a backlink to getsongbpm.com).
-Energy from lookups is approximate. Running `analyze` on a folder of your
-MP3s afterwards replaces lookup values for every song it can match by artist
-and title.
+For each track it:
+1. finds the track on Deezer (by ISRC, else artist + title) for BPM and a
+   30-second preview, and runs the normal audio analysis on that preview to
+   get key and energy (works for remixes and underground tracks too; no
+   ffmpeg needed);
+2. if `GETSONGBPM_API_KEY` is set, asks GetSongBPM for the original version's
+   BPM and key, which is preferred over the preview for non-remix tracks.
+
+Energy for all lookup tracks comes from the preview analysis, so it is on one
+scale. Running `analyze` on your own files replaces lookup values for every
+song it can match by artist and title. `--no-previews` skips the downloads.
 
 ## Tests
 
