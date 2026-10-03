@@ -1,0 +1,213 @@
+{
+ "version": 1,
+ "tracks": [
+  {
+   "id": "local:e63741a12764",
+   "title": "Warmup",
+   "artist": "Alpha",
+   "source": "local",
+   "path": "/tmp/claude-0/-home-claude/e40cd996-28c5-57f7-a5a5-2767f02cf83f/scratchpad/synth/Alpha - Warmup.mp3",
+   "bpm": 120.0,
+   "key": "8A",
+   "energy": 1.0,
+   "genre": "Deep House",
+   "duration": 40.0,
+   "features": {
+    "key_confidence": 0.926,
+    "loudness_db": -29.51,
+    "brightness_hz": 427.0,
+    "onset_rate": 4.0,
+    "dynamic_range": 6.85,
+    "raw_energy": 0.3321
+   },
+   "provenance": {
+    "genre": "tag",
+    "bpm": "analysis",
+    "key": "analysis",
+    "energy": "analysis"
+   }
+  },
+  {
+   "id": "local:bccd2c5474a5",
+   "title": "Groove",
+   "artist": "Bravo",
+   "source": "local",
+   "path": "/tmp/claude-0/-home-claude/e40cd996-28c5-57f7-a5a5-2767f02cf83f/scratchpad/synth/Bravo - Groove.mp3",
+   "bpm": 122.0,
+   "key": "9A",
+   "energy": 3.8,
+   "genre": "Deep House",
+   "duration": 40.0,
+   "features": {
+    "key_confidence": 0.923,
+    "loudness_db": -26.54,
+    "brightness_hz": 840.9,
+    "onset_rate": 5.325,
+    "dynamic_range": 6.88,
+    "raw_energy": 0.4392
+   },
+   "provenance": {
+    "genre": "tag",
+    "bpm": "analysis",
+    "key": "analysis",
+    "energy": "analysis"
+   }
+  },
+  {
+   "id": "local:14a9222f8afb",
+   "title": "Lift",
+   "artist": "Charlie",
+   "source": "local",
+   "path": "/tmp/claude-0/-home-claude/e40cd996-28c5-57f7-a5a5-2767f02cf83f/scratchpad/synth/Charlie - Lift.mp3",
+   "bpm": 124.0,
+   "key": "8A",
+   "energy": 4.6,
+   "genre": "Tech House",
+   "duration": 40.0,
+   "features": {
+    "key_confidence": 0.919,
+    "loudness_db": -24.96,
+    "brightness_hz": 957.0,
+    "onset_rate": 5.075,
+    "dynamic_range": 6.88,
+    "raw_energy": 0.4689
+   },
+   "provenance": {
+    "genre": "tag",
+    "bpm": "analysis",
+    "key": "analysis",
+    "energy": "analysis"
+   }
+  },
+  {
+   "id": "local:b00da13062d3",
+   "title": "Peak",
+   "artist": "Delta",
+   "source": "local",
+   "path": "/tmp/claude-0/-home-claude/e40cd996-28c5-57f7-a5a5-2767f02cf83f/scratchpad/synth/Delta - Peak.mp3",
+   "bpm": 126.0,
+   "key": "10A",
+   "energy": 7.9,
+   "genre": "Tech House",
+   "duration": 40.0,
+   "features": {
+    "key_confidence": 0.883,
+    "loudness_db": -21.73,
+    "brightness_hz": 1984.7,
+    "onset_rate": 8.375,
+    "dynamic_range": 6.6,
+    "raw_energy": 0.5867
+   },
+   "provenance": {
+    "genre": "tag",
+    "bpm": "analysis",
+    "key": "analysis",
+    "energy": "analysis"
+   }
+  },
+  {
+   "id": "local:5ba1664cebd2",
+   "title": "Rave",
+   "artist": "Echo",
+   "source": "local",
+   "path": "/tmp/claude-0/-home-claude/e40cd996-28c5-57f7-a5a5-2767f02cf83f/scratchpad/synth/Echo - Rave.mp3",
+   "bpm": 128.0,
+   "key": "9A",
+   "energy": 8.6,
+   "genre": "Techno",
+   "duration": 40.0,
+   "features": {
+    "key_confidence": 0.918,
+    "loudness_db": -20.13,
+    "brightness_hz": 1944.0,
+    "onset_rate": 8.475,
+    "dynamic_range": 6.53,
+    "raw_energy": 0.615
+   },
+   "provenance": {
+    "genre": "tag",
+    "bpm": "analysis",
+    "key": "analysis",
+    "energy": "analysis"
+   }
+  },
+  {
+   "id": "local:a60516f88249",
+   "title": "Sunset",
+   "artist": "Foxtrot",
+   "source": "local",
+   "path": "/tmp/claude-0/-home-claude/e40cd996-28c5-57f7-a5a5-2767f02cf83f/scratchpad/synth/Foxtrot - Sunset.mp3",
+   "bpm": 118.0,
+   "key": "8B",
+   "energy": 1.2,
+   "genre": "Nu Disco",
+   "duration": 40.0,
+   "features": {
+    "key_confidence": 0.869,
+    "loudness_db": -28.26,
+    "brightness_hz": 291.9,
+    "onset_rate": 3.95,
+    "dynamic_range": 6.9,
+    "raw_energy": 0.3441
+   },
+   "provenance": {
+    "genre": "tag",
+    "bpm": "analysis",
+    "key": "analysis",
+    "energy": "analysis"
+   }
+  },
+  {
+   "id": "local:fa013e4574b1",
+   "title": "Steppers",
+   "artist": "Golf",
+   "source": "local",
+   "path": "/tmp/claude-0/-home-claude/e40cd996-28c5-57f7-a5a5-2767f02cf83f/scratchpad/synth/Golf - Steppers.mp3",
+   "bpm": 140.0,
+   "key": "4A",
+   "energy": 6.6,
+   "genre": "Dubstep",
+   "duration": 40.0,
+   "features": {
+    "key_confidence": 0.917,
+    "loudness_db": -22.79,
+    "brightness_hz": 1001.2,
+    "onset_rate": 6.85,
+    "dynamic_range": 6.82,
+    "raw_energy": 0.541
+   },
+   "provenance": {
+    "genre": "tag",
+    "bpm": "analysis",
+    "key": "analysis",
+    "energy": "analysis"
+   }
+  },
+  {
+   "id": "local:950b56a71aef",
+   "title": "Roller",
+   "artist": "Hotel",
+   "source": "local",
+   "path": "/tmp/claude-0/-home-claude/e40cd996-28c5-57f7-a5a5-2767f02cf83f/scratchpad/synth/Hotel - Roller.mp3",
+   "bpm": 174.0,
+   "key": "7A",
+   "energy": 10.0,
+   "genre": "Drum & Bass",
+   "duration": 40.0,
+   "features": {
+    "key_confidence": 0.692,
+    "loudness_db": -20.03,
+    "brightness_hz": 2291.8,
+    "onset_rate": 10.0,
+    "dynamic_range": 6.18,
+    "raw_energy": 0.6916
+   },
+   "provenance": {
+    "genre": "tag",
+    "bpm": "analysis",
+    "key": "analysis",
+    "energy": "analysis"
+   }
+  }
+ ]
+}
